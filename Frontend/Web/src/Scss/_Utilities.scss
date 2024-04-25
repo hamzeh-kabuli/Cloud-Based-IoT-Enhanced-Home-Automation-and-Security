@@ -1,0 +1,11 @@
+@mixin Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$shadow :  0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  
+$shadow_box: 30px 30px 30px -10px rgba(0,0,0,0.1),
+-30px -30px 30px -10px rgba(255,255,255,0.4),
+-0.5px -0.5px 0 rgba(255,255,255,1),
+0.5px 0.5px 0 rgba(0,0,0,0.02);
